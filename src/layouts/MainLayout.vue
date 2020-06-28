@@ -10,10 +10,10 @@ Inject Drawer content for scrolling
     <q-header elevated class="bg-red-12 text-white">
       <q-toolbar>
         <q-toolbar-title>
-          <q-avatar square>
-            <img src="https://image.flaticon.com/icons/svg/869/869636.svg">
-          </q-avatar>
-          Deep Web
+          <div class="text-h6">
+            <img src="~assets/logo_market.png" width="40px" height="auto" class="vertical-middle">
+            Free Market
+          </div>
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
@@ -33,3 +33,9 @@ export default {
   }
 }
 </script>
+
+<style>
+  body{
+    background-color: rgb(228, 228, 228);
+  }
+</style>
